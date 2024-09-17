@@ -1,0 +1,21 @@
+.habit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.habit-form input {
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.habit-form button {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

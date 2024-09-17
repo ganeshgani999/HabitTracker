@@ -1,0 +1,41 @@
+.habit-item {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.habit-item h2 {
+  margin: 0;
+}
+
+.habit-item button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.habit-item button:hover {
+  background-color: #c82333;
+}
+
+.completion {
+  display: flex;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+.completion label {
+  display: flex;
+  align-items: center;
+}
+
+.progress {
+  height: 10px;
+  background: #1b1818;
+  border-radius: 5px;
+}
